@@ -1,0 +1,140 @@
+!--body {
+	background-color: #335a87;
+}
+
+h1 {
+	font-family: Alice;
+	font-size: 48px;
+	line-height: 55px;
+	text-align: center;
+	color: #E2BC8B;
+	-webkit-text-stroke: 3px solid #9A703B;
+	text-shadow: 0px 4px 4pxrgba(0, 0, 0, 0.25);
+}
+
+hr {
+	background-color: #558bc9;
+	height: 2px;
+}
+
+.submit-button {
+	background-color: #2A4E76;;
+	border: 3px solid #E2BC8B;
+	width: 315px;
+	box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.container {
+	width:100%;
+}
+
+button[type=submit] {
+
+}
+
+button[type=submit]:hover {
+    background-color: #5ca990;
+    border-color: #5ca990;
+}
+
+input[type=text], [type=email], [type=password] {
+	background-color: #558bc9;
+	color: white;
+	border: 3px solid #E2BC8B;
+}
+
+input[type=search] {
+	background-color: #4C4B63;
+	color: white !important;
+	border: #4C4B63;
+	width: 300px !important;
+}
+
+input[type=search]:focus {
+	background-color: #4C4B63 !important;
+	border: 1px solid #79d8b0;
+}
+
+::placeholder {
+  color: white !important;
+  opacity: 1;
+}
+
+:-ms-input-placeholder {
+  color: white !important;
+}
+
+::-ms-input-placeholder {
+  color: white !important;
+}
+
+input:focus {
+	background-color: #706F7D !important;
+	border: 1px solid #79d8b0;
+}
+
+.alert-danger {
+    width: 700px;
+    margin: auto;
+    text-align: center;
+	position: 
+}
+
+.navbar {
+	background-color: #706F7D;
+}
+
+.navbar-brand {
+	padding: 0px;
+}
+
+.menu-logo {
+	width: 50px !important;
+}
+
+.dropdown-menu {
+	margin-left: -90px;
+	background-color: #949396ff;
+	border-radius: 0 !important;
+    border-color: #A4F9C8 !important;
+	padding: 3px;
+}
+
+.dropdown-item {
+	color: white;
+}
+
+.dropdown-menu: hover {
+	background-color: red;
+}
+
+.menu-logo {
+	width: 100px;
+}
+
+
+
+.card {
+	background-color: #706F7D !important;
+    border-color: #A4F9C8 !important;
+	min-height: 300px;
+	margin:5px;
+}
+
+.note-box {
+	background-color: #706F7D !important;
+    border-color: #A4F9C8 !important;
+	height: 500px;
+	padding: 20px;
+}
+
+.content{
+	width: 900px;
+	margin-left: auto;
+	margin-right: auto;
+	height: 900px;
+}
+
+.nav-tabs {
+	margin-left: 0 !important;
+}
