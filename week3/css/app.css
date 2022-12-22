@@ -30,3 +30,8 @@ hr {
 #name {
 	font-family: cursive;
 }
+
+.image {
+	width: auto;
+	height: 400px;
+}
