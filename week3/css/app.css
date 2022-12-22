@@ -1,5 +1,5 @@
-﻿!--body {
-	background-color: #335a87;
+﻿body {
+	background-color: #a5c1e2;
 }
 
 h1 {
@@ -7,7 +7,7 @@ h1 {
 	font-size: 48px;
 	line-height: 55px;
 	text-align: center;
-	color: #E2BC8B;
+	color: #fff1de;
 	-webkit-text-stroke: 3px solid #9A703B;
 	text-shadow: 0px 4px 4pxrgba(0, 0, 0, 0.25);
 }
@@ -17,65 +17,12 @@ hr {
 	height: 2px;
 }
 
-.submit-button {
-	background-color: #2A4E76;
-	border: 3px solid #E2BC8B;
-	width: 315px;
-	box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-}
-
-.home-button {
-	background-color: #2A4E76;
-	border: 3px solid #E2BC8B;
-	box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-}
 
 .container {
 	width:100%;
 }
 
-button[type=submit] {
-	
+.box {
+	width:fit-content;
+	background-color: #2A4E76;
 }
-
-button[type=submit]:hover {
-  	background-color: #183657;
-	border: 3px solid #E2BC8B;
-}
-
-input[type=text], [type=email], [type=password], [type=date] {
-	background-color: #558bc9;
-	color: white;
-	border: 3px solid #E2BC8B;
-}
-
-input[type=text]:focus, [type=email]:focus, [type=password]:focus, [type=date]:focus {
-	background-color: #75abeb;
-	color: white;
-	border: 3px solid #E2BC8B;
-
-input[type=search] {
-	background-color: #4C4B63;
-	color: white !important;
-	border: #4C4B63;
-	width: 300px !important;
-}
-
-input[type=search]:focus {
-	background-color: #4C4B63 !important;
-	border: 1px solid #79d8b0;
-}
-
-::placeholder {
-  color: white;
-  opacity: 1;
-}
-
-:-ms-input-placeholder {
-  color: white;
-}
-
-::-ms-input-placeholder {
-  color: white ;
-}
-
