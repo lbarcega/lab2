@@ -26,3 +26,7 @@ hr {
 	width:fit-content;
 	background-color: #2A4E76;
 }
+
+#name {
+	font-family: cursive;
+}
