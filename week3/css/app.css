@@ -37,8 +37,7 @@ button {
 	background-color: #7c1e1e;
 	font-family: sans-serif;
 	color:#ffefef;
-	height: 30px;
-	width:100px;
+	padding:5px 10px;
 }
 button:hover{
 	border-color: #000000;
@@ -70,7 +69,7 @@ span.redacted {
 	float: right;
 }
 .escape-warning {
-	width: 50%;
-	margin-top:100px;
+	width: 500px;
+	padding-top:5%;
 	margin: auto;
 }
