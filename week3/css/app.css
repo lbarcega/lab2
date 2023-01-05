@@ -6,6 +6,10 @@ body.unknown {
 	font-family: 'Times New Roman', Times, serif;
 	background-color: #000000;
 }
+body.no-escape {
+	font-family: 'Times New Roman', Times, serif;
+	background-color: #000000;
+}
 
 h1 {
 	color: #ffefef;
@@ -15,6 +19,9 @@ p {
 	color: #ffefef;
 	margin: 20px;
 	font-size: 16px;
+}
+.no-escape {
+	color:#7c1e1e !important;
 }
 p.other {
 	font-family:'Times New Roman', Times, serif;
@@ -39,6 +46,18 @@ button:hover{
 	color:#7c1e1e;
 	font-family: 'Times New Roman', Times, serif;
 }
+button.dark{
+	border-color: #7c1e1e;
+	background-color: #000000;
+	color:#7c1e1e;
+	font-family: 'Times New Roman', Times, serif;
+}
+button.dark:hover{
+	border-color: #7c1e1e;
+	background-color: #7c1e1e;
+	color:#000000;
+	font-family: 'Times New Roman', Times, serif;
+}
 span.redacted {
     color: #000000;
     background-color: #000000;
@@ -49,4 +68,9 @@ span.redacted {
 }
 .buttons {
 	float: right;
+}
+.escape-warning {
+	width: 50%;
+	margin-top:100px;
+	margin: auto;
 }
