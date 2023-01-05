@@ -1,28 +1,24 @@
 ﻿body.warning {
 	font-family: sans-serif;
 	background-color: #7c1e1e;
+	color:#ffefef;
 }
 body.unknown {
 	font-family: 'Times New Roman', Times, serif;
 	background-color: #000000;
+	color:#ffefef;
 }
 body.no-escape {
 	font-family: 'Times New Roman', Times, serif;
 	background-color: #000000;
-}
-
-h1 {
-	color: #ffefef;
+	color:#7c1e1e !important;
 }
   
 p {
-	color: #ffefef;
 	margin: 20px;
 	font-size: 16px;
 }
-.no-escape {
-	color:#7c1e1e !important;
-}
+
 p.other {
 	font-family:'Times New Roman', Times, serif;
 	color:#000000;
