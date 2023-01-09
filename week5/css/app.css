@@ -121,11 +121,6 @@ span.redacted {
 	width:60px;
 }
 
-.navbar {
-	background-color: #362121;
-	color:#ffefef;
-	margin: 0px, 0px, 0px, 10px;
-}
 .hide {
 	opacity:.3;
 }
@@ -154,147 +149,80 @@ span.redacted {
 	transform: scale(-1, 1);
   }
 
-  .stack {
-	display: grid;
-	grid-template-columns: 1fr;
-  }
-  
-  .stack span {
-	font-weight: bold;
-	grid-row-start: 1;
-	grid-column-start: 1;
-	font-size: 2rem;
-	--stack-height: calc(100% / var(--stacks) - 1px);
-	--inverse-index: calc(calc(var(--stacks) - 1) - var(--index));
-	--clip-top: calc(var(--stack-height) * var(--index));
-	--clip-bottom: calc(var(--stack-height) * var(--inverse-index));
-	clip-path: inset(var(--clip-top) 0 var(--clip-bottom) 0);
-	animation: stack 340ms cubic-bezier(.46,.29,0,1.24) 1 backwards calc(var(--index) * 120ms), glitch 2s ease infinite 2s alternate-reverse;
-  }
-  
-  .stack span:nth-child(odd) { --glitch-translate: 8px; }
-  .stack span:nth-child(even) { --glitch-translate: -8px; }
-  
-  @keyframes stack {
-	0% {
-	  opacity: 0;
-	  transform: translateX(-50%);
-	  text-shadow: -2px 3px 0 red, 2px -3px 0 blue;
-	};
-	60% {
-	  opacity: 0.5;
-	  transform: translateX(50%);
-	}
-	80% {
-	  transform: none;
-	  opacity: 1;
-	  text-shadow: 2px -3px 0 red, -2px 3px 0 blue;
-	}
-	100% {
-	  text-shadow: none;
-	}
-  }
-  
-  @keyframes glitch {
-	0% {
-	  text-shadow: -2px 3px 0 red, 2px -3px 0 blue;
-	  transform: translate(var(--glitch-translate));
-	}
-	2% {
-	  text-shadow: 2px -3px 0 red, -2px 3px 0 blue;
-	}
-	4%, 100% {  text-shadow: none; transform: none; }
-  }
-
-  /* The Modal (background) */
 .modal {
-	display: none; /* Hidden by default */
-	position: fixed; /* Stay in place */
-	z-index: 1; /* Sit on top */
+	display: none; 
+	position: fixed; 
+	z-index: 1; 
 	left: 0;
 	top: 0;
-	width: 100%; /* Full width */
-	height: 100%; /* Full height */
-	overflow: auto; /* Enable scroll if needed */
-	background-color: rgb(0,0,0); /* Fallback color */
-	background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
-  }
-  /* Modal Content/Box */
-  .modal-content {
+	width: 100%; 
+	height: 100%; 
+	overflow: auto; 
+	background-color: rgb(0,0,0); 
+	background-color: rgba(0,0,0,0.4); 
+}
+ 
+.modal-content {
 	background-color: #000000;
-	margin: 15% auto; /* 15% from the top and centered */
+	margin: 15% auto; 
 	padding: 20px;
 	border: 1px solid #7c1e1e;
 	border-radius: .2em;
-	width: 80%; /* Could be more or less, depending on screen size */
+	width: 80%; 
 	color:#7c1e1e;
 	text-align: center;
 	font-family: 'Times New Roman', Times, serif;
-  }
+}
 
-  /* The Close Button */
-  .close {
-	color: #aaa;
-	float: right;
-	font-size: 28px;
-	font-weight: bold;
-  }
-  
-  .close:hover,
-  .close:focus {
-	color: black;
-	text-decoration: none;
-	cursor: pointer;
-  }
 
-  #hands {
+#hands {
 	display:none;
-  }
+}
 
-  #dummy {
+#dummy {
 	display:none;
-  }
+}
 
-  #btn2 {
+#btn2 {
 	display:none;
-  }
-  .hand1 {
+}
+.hand1 {
 	position:absolute;
 	z-index:1;
 	right:0;
 	bottom:0;
 	width:300px;	
-  }
-  .hand2 {
+}
+.hand2 {
 	position:absolute;
 	z-index:1;
 	left:0;
 	top:0;
 	width:300px;
-  }
-  .hand3 {
+}
+.hand3 {
 	position:absolute;
 	z-index:1;
 	left:0;
 	bottom:0;
 	width:400px;
-  }
-  .hand4 {
+}
+.hand4 {
 	position:absolute;
 	z-index:1;
 	right:0;
 	top:0;
 	width:350px;
-  }
-  .gallery {
+}
+.gallery {
 	padding:10px 30px;
 	width:80%;
 	margin:auto;
 	background-color: #362121;
 	color:#ffefef;
-  }
-  .gallery-image {
+}
+.gallery-image {
 	width: 40%;
 	margin-left: auto;
 	margin-right: auto;
-  }
+}
