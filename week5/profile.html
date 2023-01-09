@@ -49,12 +49,13 @@
         </center>
         <p>No photos of myself 'cause I don't like getting my photo taken so instead, have some of my disembodied hands!<br><br>
         <center>
-        <button type="button" class="yellow" onclick="show()" id="btn1">What hands?</button>
+        <button type="button" class="yellow" onclick="show()" id="btn1">What hands?</button><br>
         </center>
+        <a href="references.html"><button class="yellow">References</button></a>
       </p>
     </div>
   </div>
-<!-- The Modal -->
+  
 <div id="myModal" class="modal">
   <div id="myModal">
     <div class="modal-content">
@@ -78,43 +79,6 @@
     </div>
   </div>
 </div>
-<script>
-
-
-
-// Get the modal
-var modal = document.getElementById("myModal");
-
-var handy = document.getElementById("hands");
-
-
-function show() {
-  /* Access image by id and change
-  the display property to block*/
-  document.getElementById('hands')
-          .style.display = "block";
-  document.getElementById('myModal')
-          .style.display = "block";
-  document.getElementById('btn1')
-          .style.display = "none";
-  document.getElementById('btn2')
-          .style.display = "block";
-  setTimeout(function(){
-    document.getElementById('myModal')
-            .style.display = "none";}, 2000);
-}
-
-function gross() {
-  /* Access image by id and change
-  the display property to block*/
-  document.getElementById('myModal2')
-          .style.display = "block";
-}
-function leave() {
-  document.getElementById('myModal3')
-          .style.display = "block";
-}
-
-  </script>
+<script src="js/web.js"></script>
   </body>
 </html>
