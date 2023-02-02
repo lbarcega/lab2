@@ -6,7 +6,7 @@
   <title>References</title>
 </head>
   <body class = "profile">
-      <a href="profile.html"><img class="bg-image" src="images/logo-bg.png" alt="the boy"></a>
+      <a href="profile.php"><img class="bg-image" src="images/logo-bg.png" alt="the boy"></a>
     
     <div class="small-container">
         <img src="images/hann1.gif" class="hand1 handy">
@@ -23,7 +23,7 @@
           https://www.geeksforgeeks.org/flip-the-text-using-css/<br>
           https://www.w3schools.com/howto/howto_css_modals.asp<br><br>
         <center>
-        <a href="profile.html"><button type="button" class="yellow" >Go Back.</button></a>
+        <a href="profile.php"><button type="button" class="yellow" >Go Back.</button></a>
         </center>
       </p>
     </div>

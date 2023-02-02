@@ -6,7 +6,7 @@
   <title>Profile</title>
 </head>
   <body class = "profile">
-    <a href="profile.html"><img class="bg-image" src="images/logo-bg.png" alt="the boy"></a>
+    <a href="profile.php"><img class="bg-image" src="images/logo-bg.png" alt="the boy"></a>
     <div class="small-container">
       <div id = "hands">
         <img src="images/hann1.gif" class="hand1 handy">
@@ -51,7 +51,7 @@
         <center>
         <button type="button" class="yellow" onclick="show()" id="btn1">What hands?</button><br>
         </center>
-        <a href="references.html"><button class="yellow">References</button></a>
+        <a href="references.php"><button class="yellow">References</button></a>
       </p>
     </div>
   </div>
@@ -75,7 +75,7 @@
   <div id="myModal3">
     <div class="modal-content">
       <p>Just kidding, you can't leave me.</p>
-      <a href="no-escape.html"><button type="button" class="dark">RUN.</button></a>
+      <a href="no-escape.php"><button type="button" class="dark">RUN.</button></a>
     </div>
   </div>
 </div>

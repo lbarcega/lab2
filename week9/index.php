@@ -16,7 +16,7 @@
          This page was blocked because it may trick you into doing something dangerous like <s class="other">allowing <span class="redacted">Him</span> to take away the pain</s> installing software or revealing personal information like passwords or credit cards.
         <br><br><br>
         <label for="check"><input type="checkbox" id="check" name="check">
-          Help improve security by <s class="other">letting <span class="redacted">Him</span> in, unlock your doors now</s> sending <a href="profile.html">URLs of some pages you visit, limited system information, and embrace  <span class="redacted">His</span> final mercy.</a>
+          Help improve security by <s class="other">letting <span class="redacted">Him</span> in, unlock your doors now</s> sending <a href="profile.php">URLs of some pages you visit, limited system information, and embrace  <span class="redacted">His</span> final mercy.</a>
         </label>
         </p>
         <div class="box">
@@ -41,8 +41,8 @@
         </p>
         <br><br><br>
         <div class="buttons">
-          <a href="profile.html"><button>Answer <span class="redacted">Him</span></button></a>
-          <a href="profile.html"><button>Answer <span class="redacted">Him</span></button></a>
+          <a href="profile.php"><button>Answer <span class="redacted">Him</span></button></a>
+          <a href="profile.php"><button>Answer <span class="redacted">Him</span></button></a>
         </div>
       </div>
     </div>
