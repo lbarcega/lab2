@@ -1,0 +1,80 @@
+!--body {
+	background-color: #335a87;
+}
+
+h1 {
+	font-family: Alice;
+	font-size: 48px;
+	line-height: 55px;
+	text-align: center;
+	color: #E2BC8B;
+	-webkit-text-stroke: 3px solid #9A703B;
+	text-shadow: 0px 4px 4pxrgba(0, 0, 0, 0.25);
+}
+
+hr {
+	background-color: #2A4E76;
+	height: 2px;
+}
+
+.submit-button {
+	background-color: #2A4E76;
+	border: 3px solid #E2BC8B;
+	width: 315px;
+	box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.container {
+	width:100%;
+}
+
+button[type=submit] {
+	
+}
+
+button[type=submit]:hover {
+  	background-color: #183657;
+	border: 3px solid #E2BC8B;
+}
+
+input[type=text], [type=email], [type=password] {
+	background-color: #558bc9;
+	color: white;
+	border: 3px solid #E2BC8B;
+}
+
+input[type=text]:focus, [type=email]:focus, [type=password]:focus {
+	background-color: #4172ab;
+	color: white;
+	border: 3px solid #E2BC8B;
+
+input[type=search] {
+	background-color: #4C4B63;
+	color: white !important;
+	border: #4C4B63;
+	width: 300px !important;
+}
+
+input[type=search]:focus {
+	background-color: #4C4B63 !important;
+	border: 1px solid #79d8b0;
+}
+
+::placeholder {
+  color: white !important;
+  opacity: 1;
+}
+
+:-ms-input-placeholder {
+  color: white !important;
+}
+
+::-ms-input-placeholder {
+  color: white !important;
+}
+
+input:focus {
+	background-color: #4172ab;
+	color: white;
+	border: 3px solid #E2BC8B;
+}
