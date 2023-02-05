@@ -65,6 +65,7 @@ button {
 	color:#ffefef;
 	padding:5px 10px;
 }
+
 button:hover{
 	border-color: #7c1e1e;
 	background-color: #000000;
@@ -97,7 +98,7 @@ button.light:hover{
 }
 
 button.yellow {
-	border-color:#ffefef;
+	border-color:#ffcf91;
 	background-color: #362121;
 	color:#ffefef;
 	font-family: 'Times New Roman', Times, serif;
@@ -174,7 +175,6 @@ span.redacted {
 	font-family: 'Times New Roman', Times, serif;
 }
 
-
 #hands {
 	display:none;
 }
@@ -225,4 +225,21 @@ span.redacted {
 	width: 40%;
 	margin-left: auto;
 	margin-right: auto;
+}
+
+input[type=text], [type=email], [type=radio] {
+	background-color: #ffefef;
+	color: #362121 !important;
+	border: #362121;
+}
+textarea {
+	background-color: #ffefef;
+	color: #362121 !important;
+	border: #362121;	
+}
+
+
+
+.error {
+	color: #7c1e1e;
 }

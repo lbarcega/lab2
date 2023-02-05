@@ -4,13 +4,18 @@
 <style>
 .error {color: #FF0000;}
 </style>
+<meta charset="utf-8">
+  <link rel="stylesheet" type="text/css" href="css/app.css">
+  <link rel="icon" type="image/x-icon" href="images/favicon.ico">
+  <title>Who dis?</title>
 </head>
-<body>  
-
+<body class="profile">  
+<a href="profile.php"><img class="bg-image" src="images/logo-bg.png" alt="the boy"></a>
+<div class="small-container">
 <?php
 // define variables and set to empty values
-$nameErr = $emailErr = $genderErr = $websiteErr = "";
-$name = $email = $gender = $comment = $website = "";
+$nameErr = $emailErr = $organErr = $websiteErr = "";
+$name = $email = $organ = $comment = $website = "";
 
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
   if (empty($_POST["name"])) {
@@ -49,10 +54,10 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $comment = test_input($_POST["comment"]);
   }
 
-  if (empty($_POST["gender"])) {
-    $genderErr = "Gender is required";
+  if (empty($_POST["organ"])) {
+    $organErr = "A sacrifice is required";
   } else {
-    $gender = test_input($_POST["gender"]);
+    $organ = test_input($_POST["organ"]);
   }
 }
 
@@ -64,8 +69,10 @@ function test_input($data) {
 }
 ?>
 
-<h2>PHP Form Validation Example</h2>
-<p><span class="error">* required field</span></p>
+<h1 id="header">Uh, who dis?</h1>
+<hr>
+<div style="margin-left:40px;">
+<p><span class="error">* required field</span>
 <form method="post" action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]);?>">  
   Name: <input type="text" name="name" value="<?php echo $name;?>">
   <span class="error">* <?php echo $nameErr;?></span>
@@ -76,16 +83,19 @@ function test_input($data) {
   Website: <input type="text" name="website" value="<?php echo $website;?>">
   <span class="error"><?php echo $websiteErr;?></span>
   <br><br>
-  Comment: <textarea name="comment" rows="5" cols="40"><?php echo $comment;?></textarea>
+  Say something, anything <i>please</i>:
+  <br>
+  <textarea name="comment" rows="5" cols="40"><?php echo $comment;?></textarea>
   <br><br>
-  Gender:
-  <input type="radio" name="gender" <?php if (isset($gender) && $gender=="female") echo "checked";?> value="female">Female
-  <input type="radio" name="gender" <?php if (isset($gender) && $gender=="male") echo "checked";?> value="male">Male
-  <input type="radio" name="gender" <?php if (isset($gender) && $gender=="bird") echo "checked";?> value="bird">Bird
-  <input type="radio" name="gender" <?php if (isset($gender) && $gender=="other") echo "checked";?> value="other">Other  
-  <span class="error">* <?php echo $genderErr;?></span>
+  Which organ would you hypothetically be fine without:
+  <br>
+  <input type="radio" name="organ" <?php if (isset($organ) && $organ=="skin") echo "checked";?> value="skin">Skin
+  <input type="radio" name="organ" <?php if (isset($organ) && $organ=="lung") echo "checked";?> value="lung">A lung
+  <input type="radio" name="organ" <?php if (isset($organ) && $organ=="spleen") echo "checked";?> value="spleen">Spleen
+  <input type="radio" name="organ" <?php if (isset($organ) && $organ=="other") echo "checked";?> value="other">Other  
+  <span class="error">* <?php echo $organErr;?></span>
   <br><br>
-  <input type="submit" name="submit" value="Submit">  
+  <button class="yellow" style="width:100px;" type="submit" name="submit" value="Submit">Submit</button>
 </form>
 
 <?php
@@ -98,8 +108,17 @@ echo $website;
 echo "<br>";
 echo $comment;
 echo "<br>";
-echo $gender;
-?>
+echo $organ;
 
+if ($organ === "other"){
+  echo "<span class=\"hide\"> (If you're taking suggestions, the heart is a good choice.)</span>";
+}
+elseif ($organ != null){
+  echo "<span class=\"hide\"> (Yum thankies.)</span>";
+}
+?>
+</p>
+</div>
+</div>
 </body>
 </html>
