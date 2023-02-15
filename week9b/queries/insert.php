@@ -13,19 +13,18 @@
 
   $conn = mysqli_connect($servername, $db_username, $db_password, $database);
 
-
   //2. Insert SQL
   $sql = "INSERT INTO `notes` (
    `name`,
    `email`,
    `website`,
    `note`,
-   `organ`  
+   `organ`
 	) VALUES (
 	'".$name."',
   '".$email."',
   '".$website."',
-  '".$note."', 
+  '".$note."',
 	'".$organ."'
     )";
 
@@ -34,7 +33,7 @@
     header("location:javascript://history.go(-1)");
   } else {
 	  $_SESSION['postError'] = false;
-    header("location:javascript://history.go(-1)");
+    echo 'ah fuck';
   }
 
 

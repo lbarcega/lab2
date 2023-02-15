@@ -1,9 +1,6 @@
 <!DOCTYPE HTML>  
 <html>
 <head>
-<style>
-
-</style>
 <meta charset="utf-8">
   <link rel="stylesheet" type="text/css" href="css/app.css">
   <link rel="icon" type="image/x-icon" href="images/favicon.ico">
@@ -69,7 +66,7 @@ function test_input($data) {
 }
 ?>
 
-<h1 id="header">Uh, who dis?</h1>
+<h1 id="header">Say something.</h1>
 <hr>
 <div style="margin-left:40px;">
 <p><span class="error">* required field</span>
