@@ -37,9 +37,8 @@ p {
 	color:#000000;
 }
 a {
-
 	color:#ffefef;
-	
+	text-decoration: none;
 }
 a:hover {
 	
@@ -243,3 +242,40 @@ textarea {
 .error {
 	color: #7c1e1e;
 }
+
+.card {
+	box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+	transition: 0.3s;
+	border-radius: 5px; /* 5px rounded corners */
+	width: 250px;
+	height: 250px;
+	background-color:#684b4b;
+	color:#ffefef;
+	margin:10px;
+	display: inline-block;
+	align-self: flex-start;
+  }
+
+  
+  /* On mouse-over, add a deeper shadow */
+  .card:hover {
+	box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  }
+  
+  /* Add some padding inside the card container */
+  .container-card {
+	padding: 2px 16px;
+
+  }
+
+  .sub {
+	font-size: small;
+	margin:5px;
+	margin-top:-15px;
+  }
+
+  .note-container{
+	display: flex;
+	flex-wrap: wrap;
+	align-content: flex-start;
+  }
