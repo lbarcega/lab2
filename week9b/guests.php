@@ -16,7 +16,7 @@
       $notes = [];
 
       //1. Setup Database connection
-      $servername = "localhost";
+      $servername = "apcwebprog.csf.ph";
       $db_username = "webprogmi212";
       $db_password = "b3ntRhino98";
       $database = "webprogmi212";
