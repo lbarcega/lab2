@@ -17,14 +17,14 @@
 
       //1. Setup Database connection
       $servername = "localhost";
-      $db_username = "root";
-      $db_password = "";
-      $database = "ajah_wbdb";
+      $db_username = "webprogmi212";
+      $db_password = "b3ntRhino98";
+      $database = "webprogmi212";
 
       $conn = mysqli_connect($servername, $db_username, $db_password, $database);
 
       //2. SELECT SQL
-      $sql = "SELECT * FROM `notes`";
+      $sql = "SELECT * FROM `lbarcega_notes`";
 
       //3. Execute SQL
       $result = mysqli_query($conn, $sql);
