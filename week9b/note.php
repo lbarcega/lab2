@@ -14,7 +14,7 @@
     <div class="container">
     <?php
       $note_id = $_GET['id'];
-      echo $note_id;
+
       //1. Setup Database connection
       $servername = "192.168.150.213";
       $db_username = "webprogmi212";
