@@ -6,15 +6,15 @@
   $organ = $_POST['organ'];
   
   //1. Setup Database connection
-  $servername = "localhost";
-  $db_username = "root";
-  $db_password = "";
-  $database = "ajah_wbdb";
+  $servername = "192.168.150.213";
+  $db_username = "webprogmi212";
+  $db_password = "b3ntRhino98";
+  $database = "webprogmi212";
 
   $conn = mysqli_connect($servername, $db_username, $db_password, $database);
 
   //2. Insert SQL
-  $sql = "INSERT INTO `notes` (
+  $sql = "INSERT INTO `lbarcega_notes` (
    `name`,
    `email`,
    `website`,
