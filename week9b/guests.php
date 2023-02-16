@@ -18,7 +18,7 @@
       //1. Setup Database connection
       $servername = "192.168.150.213";
       $db_username = "webprogmi212";
-      $db_password = "webprogmi212";
+      $db_password = "b3ntRhino98";
       $database = "webprogmi212";
 
       $conn = mysqli_connect($servername, $db_username, $db_password, $database);
