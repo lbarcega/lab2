@@ -16,7 +16,7 @@
       $notes = [];
 
       //1. Setup Database connection
-      $servername = "localhost";
+      $servername = "192.168.150.213";
       $db_username = "webprogmi212";
       $db_password = "webprogmi212";
       $database = "webprogmi212";
