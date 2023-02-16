@@ -16,9 +16,9 @@
       $notes = [];
 
       //1. Setup Database connection
-      $servername = "apcwebprog.csf.ph";
+      $servername = "localhost";
       $db_username = "webprogmi212";
-      $db_password = "b3ntRhino98";
+      $db_password = "webprogmi212";
       $database = "webprogmi212";
 
       $conn = mysqli_connect($servername, $db_username, $db_password, $database);
